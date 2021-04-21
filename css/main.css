@@ -1,0 +1,154 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/*NAVBAR */
+.nav-icon {
+  font-size: larger;
+  color: #fff;
+}
+
+/* Carousel classes */
+.carousel-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Banner Classes */
+
+.banner-title {
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 3.2rem;
+}
+
+.banner-content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.title-cards {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Main Grid of Homepage */
+.main-content {
+  width: 100%;
+}
+
+.card-my {
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.item .box {
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.long-card .box{
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 568px;
+}
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover .cover {
+  opacity: 1;
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+  opacity: 1;
+}
+
+
+/* Media Queries for Grid */
+@media (max-width:767px){
+  .item .box {
+    height: 150px;
+  }
+  .title-cards{
+    font-size:medium;
+  }
+  .long-card .box{
+    height: 308px;
+  }
+}
+
+
+.job-title{
+  font-weight: 300;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+}
+/* white card */
+.white-card {
+  color: #000;
+  background-color: #fff;
+  outline: 4px solid #000;
+  outline-offset: -4px;
+}
+.white-card:hover {
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  background-origin: border-box;
+}
+
+/* black card */
+.black-card {
+  color: #fff;
+  background: #000;
+  outline: 4px solid #000;
+  outline-offset: -4px;
+}
+.black-card:hover {
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  background-origin: border-box;
+}
+
+/* BACK TO THE TOP */
+.footer-first span:nth-child(1n) {
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.footer-first span:nth-child(1n):hover {
+  color: dodgerblue;
+}
